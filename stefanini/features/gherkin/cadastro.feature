@@ -2,8 +2,8 @@
 
 @sign_up_page
 Funcionalidade: Cadastro
-  Eu como usuário do sistema.
-  Desjo realizar o cadastro de novos usuarios.
+  Eu como usuario do sistema.
+  Desejo realizar o cadastro de novos usuarios.
   Para que seja possivel armazenar e gerenciar seus dados.
 
   Contexto: Nenhum usuario cadastrado
