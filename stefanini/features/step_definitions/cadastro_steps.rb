@@ -15,7 +15,7 @@ end
 
 Então('ver o novo usuario adicionado a lista com sucesso') do
   expect($sign_up_page.div_table_contents).to_not be_empty
-  expect($sign_up_page.th_first_id.text).to_not be be_empty
+  expect($sign_up_page.th_first_id.text).to_not be_empty
   expect($sign_up_page.th_name.text).to eql(@user[:name])
   expect($sign_up_page.th_email.text).to eql(@user[:email])
   expect($sign_up_page).to have_th_exclude
@@ -38,7 +38,7 @@ end
 
 Então('ver que eles foram adicionados a listagem com sucesso') do
   expect($sign_up_page.div_table_contents).to_not be_empty
-  expect($sign_up_page.th_first_id.text).to_not be be_empty
+  expect($sign_up_page.th_first_id.text).to_not be_empty
 end
 
 Então('os ids devem estar ordenados') do
